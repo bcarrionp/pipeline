@@ -10,7 +10,7 @@ services:
     - db-volume:/var/lib/postgresql/data
 
   api:
-    image: bcarrionp/praticando-api
+    image: bcarrionp/praticandoapi
     environment:
       DB_HOST: database
     ports:
